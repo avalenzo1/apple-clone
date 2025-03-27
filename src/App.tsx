@@ -1,9 +1,17 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+import Model from "./components/Model";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-blue">HELLO WORLD!!</h1>
-
-      <button className="btn">CLICK ME!!!</button>
+      <main className="bg-black">
+        <Navbar/>
+        <Hero/>
+        <Highlights/>
+        <Model />
+      </main>
     </>
   )
 }
